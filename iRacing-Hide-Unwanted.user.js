@@ -6,6 +6,8 @@
 // @include       *://members.iracing.com/membersite/member/*
 // @version       1.19.04.05.01
 // @grant         none
+// @copyright     2019+, fuzzwah (https://github.com/fuzzwah)
+// @license       MIT; https://raw.githubusercontent.com/fuzzwah/iRacing-RingLaps-Highlighter/master/LICENSE
 // @homepageURL   http://www.fuzzwahracing.com/p/hide-unwanted.html
 // @updateURL     https://raw.githubusercontent.com/fuzzwah/iRacing-Hide-Unwanted/master/iRacing-Hide-Unwanted.user.js
 // ==/UserScript==
