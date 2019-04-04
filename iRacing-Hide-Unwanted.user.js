@@ -4,7 +4,7 @@
 // @description   Allows hiding of series and forum sections
 // @include       *://members.iracing.com/jforum/forums/list.page
 // @include       *://members.iracing.com/membersite/member/*
-// @version       1.19.04.05.03
+// @version       1.19.04.05.04
 // @grant         none
 // @copyright     2019+, fuzzwah (https://github.com/fuzzwah)
 // @license       MIT; https://raw.githubusercontent.com/fuzzwah/iRacing-Hide-Unwanted/master/LICENSE
