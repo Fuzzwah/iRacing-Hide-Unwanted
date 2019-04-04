@@ -285,18 +285,7 @@ executeJQuery(function() {
   /******************************************************
    * OPINIONATED removal below here, just oval is above
    */
-
-  /**
-   * Remove club
-   */
-  // club general discussion
-  $("td:contains('Club Discussion Area')")
-    .parent()
-    .next()
-    .remove()
-  var clubHeaders = ['Club Discussion Area', 'Club News', 'Club Stats', 'Setup Garage']
-  toggleForumRowByText(clubHeaders)
-
+  
   /**
    * Racing and championships (selected ones only)
    */
@@ -310,7 +299,6 @@ executeJQuery(function() {
     '9711', // iracers with physical challenges
     '3511', // new tire model discussion
     '605', // staff announcements (just maintenance)
-    '646', // world tour and special events
     '12311', // job openings
     '9111', // pinned announcements
     '10512', // iracing.com world chanmpionship grand prix
@@ -337,10 +325,10 @@ executeJQuery(function() {
   /**
    * Paint
    */
-  //    var paintHeaders = ["The Paint Booth"];
-  //    var paintPages = ["639", "640"];
-  //    toggleForumRowByText(paintHeaders);
-  //    toggleForumRowByPage(paintPages);
+  var paintHeaders = ["The Paint Booth"];
+  var paintPages = ["639", "640"];
+  toggleForumRowByText(paintHeaders);
+  toggleForumRowByPage(paintPages);
 
   /**
    * Technical and Help
@@ -348,8 +336,19 @@ executeJQuery(function() {
   var techPages = [
     '618', // tech - other
     '617', // camera files
+    '616', // tech assist
     '6912', // linux
     '6911', // osx
+    '11111', // vr
   ]
   toggleForumRowByPage(techPages)
+  
+  var aunzPages = [
+    '608', // news
+    '609', // stats
+    '613', // oval
+    '610', // setup
+    '14311', // dirt
+  ]
+  toggleForumRowByPage(aunzPages)  
 })
