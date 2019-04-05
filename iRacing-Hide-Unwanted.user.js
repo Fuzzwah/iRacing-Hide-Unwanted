@@ -298,7 +298,6 @@ executeJQuery(function() {
     '643', // world cup of iracing
     '9711', // iracers with physical challenges
     '3511', // new tire model discussion
-    '605', // staff announcements (just maintenance)
     '12311', // job openings
     '9111', // pinned announcements
     '10512', // iracing.com world chanmpionship grand prix
@@ -309,6 +308,10 @@ executeJQuery(function() {
     '15111', // WCS
     '16313', // world of outlaws
     '16912', // nascar ignite
+    '651', // real world racing
+    '17911', // indy series
+    '9911', // driver swaps
+    '14911', // time attack
   ]
 
   toggleForumRowByPage(racingAndChampionshipsPages)
