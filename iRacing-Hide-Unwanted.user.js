@@ -133,47 +133,82 @@ executeJQuery(function() {
 
       // Generated output
       var ovalTracks = [
-        12, // Oxford Plains Speedway []
-        14, // South Boston Speedway []
-        15, // Concord Speedway []
-        16, // USA International Speedway []
-        17, // Lanier National Speedway []
-        20, // Homestead Miami Speedway [Oval]
-        27, // Daytona International Speedway - 2007 [Oval]
-        31, // Richmond Raceway []
-        33, // Martinsville Speedway []
-        40, // Charlotte Motor Speedway - 2016 [Oval]
-        53, // Atlanta Motor Speedway [Oval]
-        94, // The Milwaukee Mile []
-        101, // Bristol Motor Speedway []
-        103, // Las Vegas Motor Speedway [Oval]
-        104, // Phoenix International Raceway - 2008 [Oval]
-        115, // Darlington Raceway []
-        116, // Talladega Superspeedway []
-        121, // Texas Motor Speedway [Oval]
-        123, // Chicagoland Speedway []
-        124, // Michigan International Speedway - 2014 []
-        131, // New Hampshire Motor Speedway [Oval]
-        136, // Pocono Raceway - 2011 [Oval]
-        143, // Centripetal Circuit []
-        161, // Thompson Speedway Motorsports Park [Oval]
-        162, // Dover International Speedway []
-        169, // Iowa Speedway [Oval]
-        188, // Kentucky Speedway [Oval]
-        190, // New Smyrna Speedway []
-        191, // Daytona International Speedway [Oval]
-        201, // Langley Speedway []
-        203, // Rockingham Speedway [Oval]
-        214, // Kansas Speedway [Oval]
-        225, // Auto Club Speedway [Oval]
-        273, // Eldora Speedway []
-        276, // Michigan International Speedway []
-        277, // Pocono Raceway []
-        279, // Volusia Speedway Park []
-        288, // Lanier National Speedway - Dirt []
-        303, // Limaland Motorsports Park []
-        305, // Knoxville Raceway []
-        331, // Chilo Bowl []
+        11, // Stafford Motor Speedway	Full Course
+        12, // Oxford Plains Speedway	
+        14, // South Boston Speedway	
+        15, // Concord Speedway	
+        16, // USA International Speedway	
+        17, // Lanier National Speedway	
+        19, // Irwindale Speedway	Inner
+        20, // Homestead Miami Speedway	Oval
+        23, // Irwindale Speedway	Outer
+        27, // Daytona International Speedway - 2007	Oval
+        30, // Irwindale Speedway	Outer - Inner
+        31, // Richmond Raceway	
+        33, // Martinsville Speedway	
+        39, // Charlotte Motor Speedway	Legends Oval
+        40, // Charlotte Motor Speedway	Oval
+        52, // Atlanta Motor Speedway	Legends Oval
+        53, // Atlanta Motor Speedway	Oval
+        94, // The Milwaukee Mile	
+        101, // Bristol Motor Speedway	
+        103, // Las Vegas Motor Speedway	Oval
+        104, // Phoenix International Raceway - 2008	Oval
+        110, // Las Vegas Motor Speedway	Legends Oval
+        113, // Las Vegas Motor Speedway	Infield Legends Oval
+        115, // Darlington Raceway	
+        116, // Talladega Superspeedway	
+        120, // Texas Motor Speedway	Legends Oval
+        121, // Texas Motor Speedway	Oval
+        123, // Chicagoland Speedway	
+        124, // Michigan International Speedway - 2014	
+        131, // New Hampshire Motor Speedway	Oval
+        133, // Indianapolis Motor Speedway	Oval
+        136, // Pocono Raceway - 2011	Oval
+        143, // Centripetal Circuit	
+        156, // Mid-Ohio Sports Car Course	Oval
+        157, // Mid-Ohio Sports Car Course	Alt Oval
+        161, // Thompson Speedway Motorsports Park	Oval
+        162, // Dover International Speedway	
+        169, // Iowa Speedway	Oval
+        171, // Iowa Speedway	Legends
+        172, // Iowa Speedway	Infield Legends
+        178, // Indianapolis Motor Speedway	IndyCar Oval
+        188, // Kentucky Speedway	Oval
+        189, // Kentucky Speedway	Legends
+        190, // New Smyrna Speedway	
+        191, // Daytona International Speedway	Oval
+        198, // Twin Ring Motegi	Oval
+        201, // Langley Speedway	
+        203, // Rockingham Speedway	Oval
+        214, // Kansas Speedway	Oval
+        222, // New Hampshire Motor Speedway	Legends
+        225, // Auto Club Speedway	Oval
+        232, // Lucas Oil Raceway	Oval
+        235, // ISM Raceway	Oval
+        236, // ISM Raceway	Oval w%2Fopen dogleg
+        237, // Gateway Motorsports Park	Oval
+        243, // Autodromo Nazionale Monza	Oval - Right turning
+        245, // Autodromo Nazionale Monza	Oval - Left turning
+        248, // Five Flags Speedway	
+        256, // Southern National Motorsports Park	
+        271, // The Bullring	
+        273, // Eldora Speedway	
+        274, // Williams Grove Speedway	
+        275, // USA International Speedway	Dirt
+        276, // Michigan International Speedway	
+        277, // Pocono Raceway	
+        279, // Volusia Speedway Park	
+        286, // Myrtle Beach Speedway	
+        288, // Lanier National Speedway	Dirt
+        303, // Limaland Motorsports Park	
+        305, // Knoxville Raceway	
+        314, // The Dirt Track at Charlotte	
+        320, // Kokomo Speedway	
+        331, // Chili Bowl	
+        335, // Charlotte Motor Speedway	Legends Oval
+        338, // Charlotte Motor Speedway	Legends RC Short
+        339, // Charlotte Motor Speedway	Oval
         
       ]
 
