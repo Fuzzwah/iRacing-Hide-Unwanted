@@ -4,7 +4,7 @@
 // @description   Allows hiding of series and forum sections
 // @include       *://members.iracing.com/jforum/forums/list.page
 // @include       *://members.iracing.com/membersite/member/*
-// @version       1.19.04.10.4
+// @version       1.19.09.09.1
 // @grant         none
 // @copyright     2019+, fuzzwah (https://github.com/fuzzwah)
 // @license       MIT; https://raw.githubusercontent.com/fuzzwah/iRacing-Hide-Unwanted/master/LICENSE
@@ -209,6 +209,7 @@ executeJQuery(function() {
         335, // Charlotte Motor Speedway	Legends Oval
         338, // Charlotte Motor Speedway	Legends RC Short
         339, // Charlotte Motor Speedway	Oval
+        344, // Fairbury Speedway
       ]
 
       function getURLParameter(url, name) {
