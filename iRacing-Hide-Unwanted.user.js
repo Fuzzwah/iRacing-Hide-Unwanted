@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name          iRacing Hide Unwanted Series
-// @namespace     http://www.fuzzwahracing.com/p/hide-unwanted.html
+// @namespace     http://iracing.fuzzwah.com/p/hide-unwanted.html
 // @description   Allows hiding of series and forum sections
 // @include       *://members.iracing.com/jforum/forums/list.page
 // @include       *://members.iracing.com/membersite/member/*
-// @version       1.20.03.04.1
+// @version       1.20.03.04.2
 // @grant         none
 // @copyright     2019+, fuzzwah (https://github.com/fuzzwah)
 // @license       MIT; https://raw.githubusercontent.com/fuzzwah/iRacing-Hide-Unwanted/master/LICENSE
-// @homepageURL   http://www.fuzzwahracing.com/p/hide-unwanted.html
+// @homepageURL   http://iracing.fuzzwah.com/p/hide-unwanted.html
 // @updateURL     https://raw.githubusercontent.com/fuzzwah/iRacing-Hide-Unwanted/master/iRacing-Hide-Unwanted.user.js
 // ==/UserScript==
 var load, execute, loadAndExecute, executeJQuery
