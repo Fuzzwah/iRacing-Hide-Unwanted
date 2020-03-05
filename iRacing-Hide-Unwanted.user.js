@@ -4,7 +4,7 @@
 // @description   Allows hiding of series and forum sections
 // @include       *://members.iracing.com/jforum/forums/list.page
 // @include       *://members.iracing.com/membersite/member/*
-// @version       1.19.12.13.1
+// @version       1.20.03.04.1
 // @grant         none
 // @copyright     2019+, fuzzwah (https://github.com/fuzzwah)
 // @license       MIT; https://raw.githubusercontent.com/fuzzwah/iRacing-Hide-Unwanted/master/LICENSE
@@ -211,6 +211,8 @@ executeJQuery(function() {
         339, // Charlotte Motor Speedway	Oval
         344, // Fairbury Speedway
         351, // Lernerville Speedway
+        357, // Texas Motor Speedway Oval
+        364, // Texas Motor Speedway Legends Oval
       ]
 
       function getURLParameter(url, name) {
