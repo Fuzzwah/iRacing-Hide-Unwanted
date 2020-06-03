@@ -213,6 +213,9 @@ executeJQuery(function() {
         351, // Lernerville Speedway
         357, // Texas Motor Speedway Oval
         364, // Texas Motor Speedway Legends Oval
+        371, // Kentucky Speedway - Oval
+        366, // North Wilkesboro
+        365, // Bristol Motor Speedway - Single Pits
       ]
 
       function getURLParameter(url, name) {
