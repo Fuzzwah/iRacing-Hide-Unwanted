@@ -4,7 +4,7 @@
 // @description   Allows hiding of series and forum sections
 // @include       *://members.iracing.com/jforum/forums/list.page
 // @include       *://members.iracing.com/membersite/member/*
-// @version       1.20.06.04.1
+// @version       1.20.09.11.1
 // @grant         none
 // @copyright     2019+, fuzzwah (https://github.com/fuzzwah)
 // @license       MIT; https://raw.githubusercontent.com/fuzzwah/iRacing-Hide-Unwanted/master/LICENSE
@@ -216,6 +216,7 @@ executeJQuery(function() {
         371, // Kentucky Speedway - Oval
         366, // North Wilkesboro
         365, // Bristol Motor Speedway - Single Pits
+        373, // Weedsport Speedway
       ]
 
       function getURLParameter(url, name) {
