@@ -4,7 +4,7 @@
 // @description   Allows hiding of series and forum sections
 // @include       *://members.iracing.com/jforum/forums/list.page
 // @include       *://members.iracing.com/membersite/member/*
-// @version       1.20.12.11.1
+// @version       1.21.03.13.1
 // @grant         none
 // @copyright     2019+, fuzzwah (https://github.com/fuzzwah)
 // @license       MIT; https://raw.githubusercontent.com/fuzzwah/iRacing-Hide-Unwanted/master/LICENSE
@@ -146,6 +146,7 @@ executeJQuery(function() {
         351, // Lernerville Speedway 
         373, // Weedsport Speedway 
         387, // Cedar Lake Speedway
+        287, // Bristol Motor Speedway - Dirt
       ]
 
       var dirt_roadTracks = [
@@ -163,7 +164,9 @@ executeJQuery(function() {
         359, // Lånkebanen Hell RX Club
         360, // Lånkebanen Hell RX Rallycross Short
         382, // Crandon International Raceway Full
-        383, // Crandon International Raceway Short        
+        383, // Crandon International Raceway Short
+        386, // Circuit de Barcelona Catalunya Rallycross
+        396, // Bark River International Raceway
       ]
 
       var ovalTracks = [
