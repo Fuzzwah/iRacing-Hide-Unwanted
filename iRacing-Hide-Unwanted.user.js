@@ -4,7 +4,7 @@
 // @description   Allows hiding of series and forum sections
 // @include       *://members.iracing.com/jforum/forums/list.page
 // @include       *://members.iracing.com/membersite/member/*
-// @version       1.21.03.13.1
+// @version       1.21.06.13.1
 // @grant         none
 // @copyright     2019+, fuzzwah (https://github.com/fuzzwah)
 // @license       MIT; https://raw.githubusercontent.com/fuzzwah/iRacing-Hide-Unwanted/master/LICENSE
@@ -244,6 +244,7 @@ executeJQuery(function() {
         371, // Kentucky Speedway Oval
         374, // Nashville Fairgrounds Speedway Oval
         380, // Nashville Fairgrounds Speedway Mini
+        400, // Nashville Superspeedway
       ]
 
       var roadTracks = [
