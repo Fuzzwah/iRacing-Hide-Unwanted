@@ -4,7 +4,7 @@
 // @description   Allows hiding of series and forum sections
 // @include       *://members.iracing.com/jforum/forums/list.page
 // @include       *://members.iracing.com/membersite/member/*
-// @version       1.21.06.14.1
+// @version       1.21.09.21.1
 // @grant         none
 // @copyright     2019+, fuzzwah (https://github.com/fuzzwah)
 // @license       MIT; https://raw.githubusercontent.com/fuzzwah/iRacing-Hide-Unwanted/master/LICENSE
@@ -247,6 +247,7 @@ executeJQuery(function() {
         380, // Nashville Fairgrounds Speedway - Mini
         384, // IRacing Superspeedway
         400, // Nashville Superspeedway
+        414, // Hickory Motor Speedway
       ]
 
       var roadTracks = [
@@ -448,10 +449,13 @@ executeJQuery(function() {
         394, // Hockenheimring Baden-Württemberg - Short B
         395, // Hockenheimring Baden-Württemberg - Outer
         397, // Sonoma Raceway - IndyCar 2012-2018
+        398, // Mt. Washington Auto Road - Hillclimb
+        399, // Mt. Washington Auto Road - Descent
         403, // Red Bull Ring - Grand Prix
         404, // Red Bull Ring - National
         405, // Chicago Street Circuit
         407, // Red Bull Ring - North
+        413, // Hungaroring
       ]
 
       function getURLParameter(url, name) {
