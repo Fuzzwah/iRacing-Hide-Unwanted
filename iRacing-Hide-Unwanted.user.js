@@ -4,7 +4,7 @@
 // @description   Allows hiding of series and forum sections
 // @include       *://members.iracing.com/jforum/forums/list.page
 // @include       *://members.iracing.com/membersite/member/*
-// @version       1.21.09.21.1
+// @version       1.21.10.29.1
 // @grant         none
 // @copyright     2019+, fuzzwah (https://github.com/fuzzwah)
 // @license       MIT; https://raw.githubusercontent.com/fuzzwah/iRacing-Hide-Unwanted/master/LICENSE
@@ -248,6 +248,8 @@ executeJQuery(function() {
         384, // IRacing Superspeedway
         400, // Nashville Superspeedway
         414, // Hickory Motor Speedway
+        418, // Phoenix Raceway - Oval
+        419, // Phoenix Raceway - Oval w/open dogleg        
       ]
 
       var roadTracks = [
