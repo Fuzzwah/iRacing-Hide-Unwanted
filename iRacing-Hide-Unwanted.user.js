@@ -4,7 +4,7 @@
 // @description   Allows hiding of series and forum sections
 // @include       *://members.iracing.com/jforum/forums/list.page
 // @include       *://members.iracing.com/membersite/member/*
-// @version       1.21.10.29.1
+// @version       1.22.03.11.1
 // @grant         none
 // @copyright     2019+, fuzzwah (https://github.com/fuzzwah)
 // @license       MIT; https://raw.githubusercontent.com/fuzzwah/iRacing-Hide-Unwanted/master/LICENSE
@@ -147,6 +147,7 @@ executeJQuery(function() {
         351, // Lernerville Speedway
         373, // Weedsport Speedway
         387, // Cedar Lake Speedway
+        438, // Federated Auto Parts Raceway at I-55
       ]
 
       var dirt_roadTracks = [
@@ -458,6 +459,8 @@ executeJQuery(function() {
         405, // Chicago Street Circuit
         407, // Red Bull Ring - North
         413, // Hungaroring
+        439, // Winton Motor Raceway - National Circuit
+        440, // Winton Motor Raceway - Club Circuit
       ]
 
       function getURLParameter(url, name) {
